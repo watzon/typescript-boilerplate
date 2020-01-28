@@ -1,7 +1,6 @@
 # typescript-boilerplate
 
 ![MIT License](https://img.shields.io/github/license/watzon/typescript-boilerplate)
-![Dependencies](https://img.shields.io/librariesio/github/watzon/typescript-boilerplate)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
 
 This is a basic boilerplate for setting up new Typescript projects for Node or the browser. It comes with testing, linting, and building pre-configured.
