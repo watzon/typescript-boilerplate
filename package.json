@@ -27,9 +27,11 @@
     "url": "https://github.com/watzon/typescript-boilerplate/issues"
   },
   "homepage": "https://github.com/watzon/typescript-boilerplate#readme",
-  "devDependencies": {
-    "@types/jest": "^25.1.0",
+  "dependencies": {
     "@types/node": "^13.5.0",
+    "@types/jest": "^25.1.0"
+  },
+  "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.0",
     "jest": "^25.1.0",
