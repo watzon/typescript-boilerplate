@@ -1,0 +1,41 @@
+{
+  "name": "typescript-boilerplate",
+  "version": "0.1.0",
+  "description": "Basic Node boilerplate for Typescript projects",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc --build ./tsconfig.json",
+    "test": "jest",
+    "docs": "jsdoc -c ./jsdoc.json -d ./docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watzon/typescript-boilerplate.git"
+  },
+  "keywords": [
+    "typescript",
+    "ts",
+    "boilerplate",
+    "bare",
+    "bones",
+    "tsnode"
+  ],
+  "author": "Chris Watson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watzon/typescript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/watzon/typescript-boilerplate#readme",
+  "devDependencies": {
+    "@types/jest": "^25.1.0",
+    "@types/node": "^13.5.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "jest": "^25.1.0",
+    "jsdoc": "^3.6.3",
+    "ts-jest": "^25.0.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  }
+}
