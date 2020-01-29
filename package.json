@@ -7,7 +7,8 @@
     "start": "ts-node src/index.ts",
     "build": "tsc --build ./tsconfig.json",
     "test": "jest",
-    "docs": "jsdoc -c ./jsdoc.json -d ./docs"
+    "docs": "jsdoc -c ./jsdoc.json -d ./docs",
+    "lint": "eslint **/*.js"
   },
   "repository": {
     "type": "git",
