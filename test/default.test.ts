@@ -3,7 +3,7 @@
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
 
-import { hello } from './'
+import { hello } from './index'
 
 it('logs "Hello, world!" to the console', () => {
   const consoleSpy = jest.spyOn(console, 'log')
